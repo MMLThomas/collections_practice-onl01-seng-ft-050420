@@ -3,5 +3,6 @@ def sort_array_asc(array_of_int)
 end
 
 def sort_array_desc(array_of_int)
-  array_of_int.sort |a,b|
+  array_of_int.sort do |a,b|
     a >=< b
+  end
