@@ -27,9 +27,9 @@ def sort_array_char_count(array_of_strings)
 end
 
 def swap_elements(array)
-  empty = array[2]
-  array[2] = array[3]
-  array[3] = empty
+  empty = array[1]
+  array[1] = array[2]
+  array[2] = empty
   array
 end
   
