@@ -55,6 +55,14 @@ def find_a(array_of_strings)
     a_string[0] == "a"
   end
 end
+
+def sum_array(array_of_int)
+  sum = 0
+  array_of_int.each do |num|
+    sum += num
+  end
+  sum
+end
   
   
     
