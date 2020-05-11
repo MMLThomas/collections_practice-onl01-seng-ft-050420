@@ -60,7 +60,6 @@ def sum_array(array_of_int)
   array_of_int.inject(0) do |sum, n|
     sum += n
   end
-  sum
 end
   
   
