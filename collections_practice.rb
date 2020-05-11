@@ -32,6 +32,9 @@ def swap_elements(array)
   array[2] = empty
   array
 end
+
+def reverse_array(array_of_int)
+  
   
     
     
