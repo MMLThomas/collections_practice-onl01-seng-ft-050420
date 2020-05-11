@@ -57,8 +57,8 @@ def find_a(array_of_strings)
 end
 
 def sum_array(array_of_int)
-  array_of_int.inject(0) do |sum, num|
-    sum += num
+  array_of_int.inject(0) do |sum, n|
+    sum += n
   end
   sum
 end
