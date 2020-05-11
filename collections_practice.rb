@@ -46,7 +46,9 @@ end
 
 def kesha_maker(array_of_strings)
   array_of_strings.each do |third|
-    
+    third[2] = "$"
+  end
+end
   
   
   
