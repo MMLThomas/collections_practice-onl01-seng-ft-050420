@@ -34,6 +34,16 @@ def swap_elements(array)
 end
 
 def reverse_array(array_of_int)
+  i = 0
+  while i > (array_of_int.length/2) + 1
+    empty = array_of_int[i]
+    array_of_int[i] = array_of_int[-i - 1]
+    array_of_int[-i - 1] = empty
+    i += 1
+  end
+  array_of_int
+end
+  
   
   
     
