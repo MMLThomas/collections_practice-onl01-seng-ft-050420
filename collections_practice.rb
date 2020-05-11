@@ -43,6 +43,10 @@ def reverse_array(array_of_int)
   end
   array_of_int
 end
+
+def kesha_maker(array_of_strings)
+  array_of_strings.each do |third|
+    
   
   
   
