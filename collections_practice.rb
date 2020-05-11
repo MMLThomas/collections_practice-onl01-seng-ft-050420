@@ -62,6 +62,14 @@ def sum_array(array_of_int)
   end
 end
   
+def add_s(array_of_strings)
+  array_of_strings.each do |word|
+    if array_of_strings.index(word) != 1
+      word << "s"
+    end
+  end
+end
+      
   
     
     
