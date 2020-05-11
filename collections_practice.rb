@@ -49,7 +49,12 @@ def kesha_maker(array_of_strings)
     third[2] = "$"
   end
 end
-  
+
+def find_a(array_of_strings)
+  array_of_strings.select do |a_string|
+    a_string[0] == "a"
+  end
+end
   
   
     
